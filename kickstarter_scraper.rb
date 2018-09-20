@@ -22,7 +22,7 @@ end
 
 create_project_hash.each do |title, hash| 
   puts "#{title}:"
-  hash.each {|key, value| puts "#{key}: #{value}"}
+  hash.each {|key, value| puts "  #{key}: #{value}\n"}
 end
 
 # projects: kickstarter.css("li.project.grid_4")
